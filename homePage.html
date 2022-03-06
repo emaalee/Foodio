@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,17 +13,9 @@
 
         <header>Welcome to Foodio</header>
 
+        <form id="profile_form" method="get" action="resultsPage.html">
         <h1>Where you can find any food</h1>
-
-        <div>
-            <label for="miles">Miles Driven:</label>
-            <input type="text" id="miles">
-        </div>
-        <div>
-            <label for="gallons">Gallons of Gas Used:</label>
-            <input type="text" id="gallons">
-        </div>
-
+       <!-- 
         <div>
             <label for="email">E-Mail:</label>
             <input type="text" name="email" id="email">
@@ -34,23 +26,27 @@
             <input type="text" name="phone" id="phone">
             <span></span>
         </div>
-
+        -->
         <div>
             <label for="zip">ZIP Code:</label>
             <input type="text" name="zip" id="zip">
             <span></span>
         </div>
-
+        
         <div>
-            <label for="mpg">Miles Per Gallon:</label>
-            <input type="text" id="mpg" disabled>
+            <label for="foo">What are you craving:</label>
+            <input type="text" name="foo" id="foo">
+            <span></span>
         </div>
-
+        
         <div>
-            <label>&nbsp;</label>
-            <input type="button" id="food" value="Find your Food!">
-        </div>
+            <label></label>
+            <input type="button" id="food" value="Find your Food">
+        </div>  
+    </form>
     </main>
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="firstjs.js"></script>   
 </body>
 

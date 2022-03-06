@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Results</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <main class="result">
+        <header>Your Restaraunts!</header>
+        <p>Thank you for updating your profile! Please review the information below to make sure it is correct.</p>
+        <p id="result">&nbsp;</p>
+        <p id="zip">&nbsp;</p>
+
+        <script>
+            // display results
+            document.write('<h3>Here is your input</h3> ')
+            document.write(`<p><label>Investment amount:</label> ${result}</p>`);
+            document.write(`<p><label>Interest rate:</label> ${zip}</p>`);
+            document.write(`<p><label>Years:</label> ${phone}</p>`);
+
+        </script> 
+        
+        <!--back button-->
+        <input type="button" id="back" value="Back">
+        
+    </main>
+    <script src="firstjs.js"></script>   
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        // display query string
+        
+        $("#back").click( () => {
+            history.back();
+        });
+    </script>
+</body>
+</html>
