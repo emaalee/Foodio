@@ -8,33 +8,60 @@
 </head>
 
 <body>
-    <main class="result">
-        <header>Your Restaraunts!</header>
-        <p>Thank you for updating your profile! Please review the information below to make sure it is correct.</p>
-        <p id="result">&nbsp;</p>
-        <p id="zip">&nbsp;</p>
+    <header> <img src = "images/logo.png" width = "100" height = "100" alt = "Foodio logo">
+        <h1><a href="homePage.html">Foodio</a></h1>
+      </header>
+    
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        <script>
-            // display results
-            document.write('<h3>Here is your input</h3> ')
-            document.write(`<p><label>Investment amount:</label> ${result}</p>`);
-            document.write(`<p><label>Interest rate:</label> ${zip}</p>`);
-            document.write(`<p><label>Years:</label> ${phone}</p>`);
+        <!--nav bar-->
+        <nav>
+            <ul>
+                <li><a href = "resultsPage.html">About Us</a></li>
+                <li><a href = "homePage.html">Menus</a></li>
+                <li><a href = "restarauntsPage.html">Restaraunts</a></li>
+            </ul>
+        </nav>
+        
+        <br>
+        <h2>About Us</h2>
+        <br>
+        
+        <div id="inside"></div>
+        <br>
+        <br>
 
-        </script> 
-        
-        <!--back button-->
-        <input type="button" id="back" value="Back">
-        
+        <main>
+            
+        <h2>We are Foodio</h2>
+        <div id = "par">    
+        <p>
+            Foodio was created by Alex, Emily, Andrew, and Eman to help people find food near them. 
+            Everyone knows that feeling, you are hungry, but you don’t where you want to go. 
+            Well, Foodio was made for you!
+        </p>
+
+            <p>
+            All you have to do is enter your zip code and what you are craving and bam!
+            Foodio shows you the restaurants menus in the area that have the food you are craving.
+             Not only that, Foodio even gives you a list of all the restaurants in the area with their website and phone number based on the zip code entered.
+            </p>
+
+            <p>
+            No more scrolling through Google and trying to find menus. 
+            Say goodbye to Google maps and tapping on a bunch of little icons, and say hello to Foodio!
+            </p>
+        </div>
     </main>
-    <script src="firstjs.js"></script>   
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script>
-        // display query string
-        
-        $("#back").click( () => {
-            history.back();
-        });
-    </script>
+
+    
+  <!-- footer!-->
+  <footer> Copyright &copy; 2022 Foodio<br>
+    Alex Emily Andrew Eman </footer>
+
 </body>
 </html>

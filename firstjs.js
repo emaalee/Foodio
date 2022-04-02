@@ -28,6 +28,7 @@ const isDate = (date, datePattern) => {
     return true;
 };
 
+
 $( document ).ready( () => {
 
     $( "#food" ).click( () => {
@@ -64,9 +65,9 @@ $( document ).ready( () => {
             $("#foo").next().text("Please enter a valid food.");
         }
         
-        if ( isValid ) { 
-            $("#profile_form").submit();
-        }
+        ///if ( isValid ) { 
+         //   $("#profile_form").submit();
+       // }
         
         //$("#email").focus(); 
     });
