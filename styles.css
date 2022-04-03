@@ -100,13 +100,13 @@ nav ul {
   }
   nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #FDF5EA;
   }
   nav ul li a:link {
-    color: white;
+    color: #FDF5EA;
   }
   nav ul li a:visited {
-    color: white;
+    color: #FDF5EA;
   }
   nav ul li a:hover {
     color: black;
