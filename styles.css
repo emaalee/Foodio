@@ -8,6 +8,18 @@
     background-position: center;
     margin: auto;
 }
+
+#allThe {
+  background-image: url(images/allTheLogos.jpg);
+  height: 400px;
+  width: 1024px;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  background-clip: content-box;
+  background-position: center;
+  margin: auto;
+}
  
 #access {
     background-image: url(images/image3.jpg);
