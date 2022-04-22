@@ -9,6 +9,17 @@
     margin: auto;
 }
 
+#menuPic {
+  height: 400px;
+  width: 1024px;
+  background-image: url(images/menus.jpg);
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  background-position: center;
+  margin: auto;
+}
+
 #allThe {
   background-image: url(images/allTheLogos.jpg);
   height: 400px;
@@ -33,7 +44,7 @@
 body {
     background-color: lightblue;
     background-repeat: no-repeat;
-    
+    color: #FDF5EA;
     background-size: cover;
     background-image: url(images/back2.jpg);
 }
@@ -42,7 +53,6 @@ header {
     font-family: 'Comic Sans', cursive;
     font-style: bold;
     font-size: 30px;
-    color: #F26A8D;
     
     /*color: #F26A8D;*/
     padding-top: 45px;
